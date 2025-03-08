@@ -11,13 +11,21 @@ The dataset used in this project is the Auto MPG dataset, which contains informa
 ## Features in the Dataset
 
 mpg (Target Variable) - Fuel efficiency measured in miles per gallon.
+
 cylinders - Number of cylinders in the engine.
+
 displacement - Engine displacement (in cubic inches).
+
 horsepower - Horsepower of the car’s engine.
+
 weight - Weight of the car (in pounds).
+
 acceleration - Time taken to accelerate from 0 to 60 mph (in seconds).
+
 model year - Year in which the car was manufactured.
+
 origin - Country of manufacture (USA, Europe, Japan).
+
 car name - Name of the car model (not used in modeling).
 
 
@@ -48,8 +56,9 @@ Model Selection & Insights
 - Determine the best model for predicting fuel efficiency.
 
 
-📌 Summary of Findings
-Weight, horsepower, and displacement are highly correlated with fuel efficiency (MPG).
-Cars manufactured in Japan tend to have better fuel economy compared to American cars.
-Linear Regression performed well, explaining ~90.4% of the variance in MPG.
-Ridge Regression did not significantly improve the model, so we opted for the OLS model.
+## Summary of Findings
+
+- Weight, horsepower, and displacement are highly correlated with fuel efficiency (MPG).
+- Cars manufactured in Japan tend to have better fuel economy compared to American cars.
+- Linear Regression performed well, explaining ~90.4% of the variance in MPG.
+- Ridge Regression did not significantly improve the model, so we opted for the OLS model.
