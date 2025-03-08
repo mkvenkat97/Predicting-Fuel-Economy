@@ -1,6 +1,8 @@
 # Predicting-Fuel-Economy
 A linear regression model to predict a vehicle's fuel efficiency
+
 🚗 Predicting Fuel Economy: A Regression-Based Analysis
+
 📌 Objective
 The goal of this project is to develop a regression model to predict the fuel efficiency (miles per gallon - MPG) of cars based on various automobile characteristics such as weight, horsepower, displacement, acceleration, and model year. By analyzing historical automotive data, we aim to identify the key factors influencing fuel economy and build a robust predictive model.
 
@@ -17,6 +19,7 @@ acceleration - Time taken to accelerate from 0 to 60 mph (in seconds).
 model year - Year in which the car was manufactured.
 origin - Country of manufacture (USA, Europe, Japan).
 car name - Name of the car model (not used in modeling).
+
 
 📌 Methodology
 The project follows a structured data science workflow, including:
@@ -38,6 +41,8 @@ Model Selection & Insights
 
 Compare model performance using R² and Mean Absolute Error (MAE).
 Determine the best model for predicting fuel efficiency.
+
+
 📌 Summary of Findings
 Weight, horsepower, and displacement are highly correlated with fuel efficiency (MPG).
 Cars manufactured in Japan tend to have better fuel economy compared to American cars.
